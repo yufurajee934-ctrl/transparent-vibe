@@ -1,9 +1,9 @@
 {
   "name": "Transparent Vibe",
-  "description": "Тема с кастомным фоном и полной настройкой прозрачности боковых и верхних панелей.",
+  "description": "Custom transparency theme",
   "main": "theme.js",
   "usercss": "user.css",
   "schemes": ["Base"],
   "version": "1.0.0",
-  "author": "ТвоеИмя"
+  "author": "yufurajee934-ctrl"
 }
