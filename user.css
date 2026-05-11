@@ -1,0 +1,33 @@
+:root {
+  --bg-image: url("https://i.ibb.co/kg0JYN2F/20260311-182706.jpg");
+  --ui-opacity: 0.4; /* Прозрачность по умолчанию */
+  --blur-amount: 10px;
+}
+
+body {
+  background-image: var(--bg-image) !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-attachment: fixed !important;
+}
+
+/* 1. Боковая панель (Библиотека) */
+.Root__nav-bar, .main-navBar-navBar {
+  background-color: rgba(0, 0, 0, var(--ui-opacity)) !important;
+  backdrop-filter: blur(var(--blur-amount));
+}
+
+/* 2. Верхняя панель */
+.main-topBar-background, .main-topBar-overlay {
+  background-color: transparent !important;
+}
+
+/* 3. Основная область и правая панель */
+.main-view-container, .Root__right-sidebar, .main-nowPlayingView-container {
+  background-color: rgba(0, 0, 0, var(--ui-opacity)) !important;
+  backdrop-filter: blur(var(--blur-amount));
+}
+
+.main-card-card {
+  background: rgba(255, 255, 255, 0.05) !important;
+}
